@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16-fevralda urush boshlanadimi?!"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="start|bottom"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="30sp"/>
+        <TextView
+            android:id="@+id/tv_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="107K views"
+            android:textColor="#ffffff"
+            android:layout_gravity="start|bottom"
+            android:layout_margin="5dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
